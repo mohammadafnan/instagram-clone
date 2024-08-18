@@ -23,7 +23,7 @@
         </section>
         <section class="story">
             <div class="header2">
-                <img class="instapro1" src="assets/images/insta-pro1.png" alt="">
+                <img class="instapro1" src="assets/images/ocean-4.jpg" alt="">
                 <label>Doll</label>
                 <img class="instapro2" src="assets/images/insta-pro2.png" alt="">
                 <label>Rocky</label>
@@ -33,7 +33,7 @@
 
                 <img class="instapro4" src="assets/images/insta-pro4.png" alt="">
                 <label>Smart</label>
-                <img class="instapro2" src="assets/images/insta-pro1.png" alt="">
+                <img class="instapro2" src="assets/images/ocean-4.jpg" alt="">
                 <label>Doll</label>
                 <img class="instapro2" src="assets/images/insta-pro2.png" alt="">
                 <label>Rocky</label>
@@ -125,7 +125,42 @@
                     imagesaveicon1Url: 'https://img.icons8.com/material/24/FFFFFF/bookmark-ribbon--v1.png',
                     imageUrl: 'assets/images/insta-pro4.png',
                     description: 'New Classes style releaed.'
-                },];
+                },
+                {
+                    username: ' ocean',
+                    usernamedesc: 'Sea',
+                    imagemenuicon1Url: 'https://img.icons8.com/ios-glyphs/30/FFFFFF/menu-2.png',
+                    imagehearticon1Url: 'https://img.icons8.com/ios/50/FFFFFF/like--v1.png',
+                    imagemsgicon1Url: 'https://img.icons8.com/ios/50/FFFFFF/speech-bubble--v1.png',
+                    imagesenticon1Url: 'assets/images/icons8-sent.png',
+                    imagesaveicon1Url: 'https://img.icons8.com/material/24/FFFFFF/bookmark-ribbon--v1.png',
+                    imageUrl: 'assets/images/ocean-4.jpg',
+                    description: 'This is the Doll shop.'
+                },
+                {
+                    username: 'Rocky',
+                    usernamedesc: 'BTS',
+                    imagemenuicon1Url: 'https://img.icons8.com/ios-glyphs/30/FFFFFF/menu-2.png',
+                    imagehearticon1Url: 'https://img.icons8.com/ios/50/FFFFFF/like--v1.png',
+                    imagemsgicon1Url: 'https://img.icons8.com/ios/50/FFFFFF/speech-bubble--v1.png',
+                    imagesenticon1Url: 'assets/images/icons8-sent.png',
+                    imagesaveicon1Url: 'https://img.icons8.com/material/24/FFFFFF/bookmark-ribbon--v1.png',
+                    imageUrl: 'assets/images/insta-pro2.png',
+                    description: 'Rocked Rocked .'
+                },
+                {
+                    username: 'Style',
+                    usernamedesc: 'Classes',
+                    imagemenuicon1Url: 'https://img.icons8.com/ios-glyphs/30/FFFFFF/menu-2.png',
+                    imagehearticon1Url: 'https://img.icons8.com/ios/50/FFFFFF/like--v1.png',
+                    imagemsgicon1Url: 'https://img.icons8.com/ios/50/FFFFFF/speech-bubble--v1.png',
+                    imagesenticon1Url: 'assets/images/icons8-sent.png',
+                    imagesaveicon1Url: 'https://img.icons8.com/material/24/FFFFFF/bookmark-ribbon--v1.png',
+                    imageUrl: 'assets/images/insta-pro4.png',
+                    description: 'New Classes style releaed.'
+                },
+            
+            ];
 
             const cardContainer = document.getElementById('card-container');
 
@@ -143,7 +178,7 @@
                     <img class="instapost1" src="${card.imageUrl}" alt="">
                     <div class="userinfo"> <label class="infolbl1">${card.username}</label><br> <label class="infolbl">${card.usernamedesc}</label>
                     </div>
-                    <img width="30" height="30" src="${card.imagemenuicon1Url}" alt=""
+                    <img class="classmenu"  width="30" height="30" src="${card.imagemenuicon1Url}" alt=""
                         alt="menu-2" />
                 </div>
 
